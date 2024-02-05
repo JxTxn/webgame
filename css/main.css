@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+.image{
+    align-items: center;
+}
+#title{
+    text-align: center;
+    color: aliceblue;
+}
+#mainbox{
+
+}
+#line{
+
+}
+#inventory{
+
+}
+#character{
+
+}
+#npc{
+
+}
