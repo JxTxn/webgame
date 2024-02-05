@@ -1,28 +1,28 @@
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     background-color: black;
 }
-.image{
+#maincontainer{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+#mainbox{
+    background-color: rgb(0, 0, 0);
+}
+.image{
+    
 }
 #title{
     text-align: center;
     color: aliceblue;
 }
-#mainbox{
-
-}
-#line{
-
-}
-#inventory{
-
-}
-#character{
-
-}
-#npc{
-
+#inventorybox{
+    justify-content: start;
+    width: 180px;
+    height: 80px;
+    color: white;
+    background-color:  black;
+    border: white 1px solid;
+    padding: 10px;
 }
