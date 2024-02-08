@@ -45,11 +45,11 @@ body {
 }
 
 #door1 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #fb00ff;
-    top: 95px;
-    left: 490px;
+    top: 90px;
+    left: 494px;
     position: absolute;
 
 }
