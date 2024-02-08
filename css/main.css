@@ -1,28 +1,78 @@
-body{
-    background-color: black;
-}
-#maincontainer{
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-#mainbox{
-    background-color: rgb(0, 0, 0);
-}
-.image{
-    
-}
-#title{
-    text-align: center;
-    color: aliceblue;
-}
-#inventorybox{
-    justify-content: start;
-    width: 180px;
-    height: 80px;
+
+/* divs */
+#mainTitle {
     color: white;
-    background-color:  black;
-    border: white 1px solid;
-    padding: 10px;
+    text-align: center;
 }
+
+#gameWindow {
+    position: relative;
+    height: 608px;
+    width: 800px;
+    margin: auto;
+    background-image: url("../assets/tilemap1.jpg");
+    border-radius: 8px;
+
+}
+
+#inventory {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 210px;
+    height: 140px;
+    border: white 1px solid;
+    background-color: rgba(100, 57, 14, 0.9);
+    margin: 8px 0px 0px 8px;
+    z-index: 100;
+
+}
+
+#maincharacter {
+    position: absolute;
+    z-index: 200;
+    left: 370px;
+    top: 304px;
+    transition: ease-in-out 1s;
+
+}
+
+#door1 {
+    width: 50px;
+    height: 50px;
+    background-color: #fb00ff;
+    top: 95px;
+    left: 490px;
+    position: absolute;
+
+}
+
+#line {
+    width: 800px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 405px 0px 0px 0px;
+    border-radius: 0px 0px 8px 8px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    z-index: 100;
+}
+
+#sign {
+    width: 46px;
+    height: 32px;
+    top: 450px;
+    left: 20px;
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.foreground {}
